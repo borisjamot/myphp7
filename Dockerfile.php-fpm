@@ -1,0 +1,3 @@
+FROM php:7.1-fpm-alpine
+MAINTAINER Boris Jamot
+COPY index.php /var/www/html
